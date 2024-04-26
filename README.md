@@ -38,25 +38,25 @@ git clone https://github.com/NCN-Lab/deepHFO
 
 3. Open Visual Studio Code (VSCode) and:
 
-3.1. Open the folder with the GUI
-- Select "File" > "Open Folder" from the menu.
-- Navigate to the location where you extracted the project files and select the "GUI" folder.
+	3.1. Open the folder with the GUI
+	- Select "File" > "Open Folder" from the menu.
+	- Navigate to the location where you extracted the project files and select the "GUI" folder.
 
-3.2. Select file __main__.py in the Explorer panel (in the left side of VSCode window)
+	3.2. Select file \_\_main\_\_.py in the Explorer panel (in the left side of VSCode window)
 
-3.3. Select the interpreter ~\anaconda3\python.exe (lower right corner of VSCode window)
-
-3.4. Use VSCode terminal to create a Conda virtual environment using the provided conda_environment.yml file:
-- Select "Terminal" > "New Terminal" from the menu, and type the following command:
-
-```bash 
-conda env create -f virtual_environment.yml
-```
-
-3.5. Use VSCode terminal to activate the virtual environment:
-```bash 
-conda activate hfo-detector-env
-```
+	3.3. Select the interpreter ~\anaconda3\python.exe (lower right corner of VSCode window)
+   
+	3.4. Use VSCode terminal to create a Conda virtual environment using the provided conda_environment.yml file:
+	- Select "Terminal" > "New Terminal" from the menu, and type the following command:
+	
+	```bash 
+	conda env create -f virtual_environment.yml
+	```
+	
+	3.5. Use VSCode terminal to activate the virtual environment:
+	```bash 
+	conda activate hfo-detector-env
+	```
 
 ## Usage
 
