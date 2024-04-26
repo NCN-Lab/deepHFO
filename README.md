@@ -27,6 +27,7 @@ These predictions are then post-processed in order to provide approximations for
 To run the Deep Learning HFO Detector GUI, follow these steps:
 
 1. Download the project folder from the repository by clicking on the "Code" button and selecting "Download ZIP" from the dropdown menu.
+
 Alternatively, you can clone the repository to your local machine using Git:
 
 ```bash 
@@ -35,7 +36,7 @@ git clone https://github.com/NCN-Lab/deepHFO
 
 2. Extract the downloaded ZIP file (if applicable) to a location of your choice.
 
-3. Open Visual Studio Code (VSCode):
+3. Open Visual Studio Code (VSCode) and:
 
 3.1. Open the folder with the GUI
 - Select "File" > "Open Folder" from the menu.
